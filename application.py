@@ -18,7 +18,7 @@ db = SQLAlchemy(app)
 
 
 class Music(db.Model):
-    id = db.Column(db.Integer, primary_key = True, nullable=True)
+    id = db.Column(db.Integer, primary_key = True)
     name = db.Column(db.String(50), nullable = False, unique=True)
     duration = db.Column(db.Integer, nullable = False)
     artist = db.Column(db.String(100), nullable = False)
