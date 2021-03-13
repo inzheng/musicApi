@@ -31,7 +31,7 @@ class Music(db.Model):
         self.artist = artist
 
     def __repr__(self):
-        return f"{self.id} = {self.name} - {self.duration} - {self.artist} - {self.genre}"
+        return f"{self.id} - {self.name} - {self.duration} - {self.artist} - {self.genre}"
 
 
 
