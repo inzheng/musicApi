@@ -1,7 +1,7 @@
 # musicApi
 Introduction: This application build multiple rest api 
 
-
+A music will conain the music name, artist, duration and genre
 ----------
 
 "/" and "/music": read all information from the database
