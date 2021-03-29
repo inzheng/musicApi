@@ -12,7 +12,7 @@ if EVN == 'dev':
     app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://xuboyang:xby1999726@localhost/music'
 else:
     app.debug = False
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://cjpsohaatzhpnp:ece351d8bb53290e336131bf3b67c3d6088f703a5e933d558c84daeb31c04576@ec2-52-6-178-202.compute-1.amazonaws.com:5432/d48dbc9tf7q116'
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://fdibzjsbduhpza:9d2578d4965857b08f9da8e82d4d0888654403d5d89155284c46775efe131ef4@ec2-54-211-176-156.compute-1.amazonaws.com:5432/dc58roq6bsu8n8'
     # app.config['SQLALCHEMY_DATABASE_URI'] = os.environ['DATABASE_URL']
 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
