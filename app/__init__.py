@@ -4,7 +4,7 @@ import os
 
 app = Flask('__name__')
 
-EVN = 'dev'
+EVN = 'con'
 if EVN == 'dev':
     app.debug = True
     app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://xuboyang:xby1999726@localhost/music'
